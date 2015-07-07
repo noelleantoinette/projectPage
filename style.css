@@ -1,0 +1,64 @@
+body {
+  padding: auto;
+  font: 14px "Baskerville", Helvetica, Arial, sans-serif;
+  text-align: center;
+
+  color: #000066;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+	text-align: center;
+}
+
+.container {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	border-style: solid;
+	border-color: grey;
+	border-width: 1px;
+}
+
+#checks {
+	height: 100px;
+	top:0px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 90%;
+	display: inline-block;
+
+}
+
+.check {
+	margin-top: 0px;
+	width: 100px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+/*#LondonNYCGaugeContainer {
+	
+	bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	vertical-align: middle;
+	display: table-cell;
+}*/
+
+.gauge {
+	bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	display: inline-block;
+}

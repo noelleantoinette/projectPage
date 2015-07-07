@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="/stylesheets/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="d3min.js"></script>
+    <script src="gaugeChanges.js"></script>
+</head>
+
+<body>
+    {% block content %}{% endblock %}
+</body>
+<script src="javascript.js"></script>
+<script src="jquerymin.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    console.log('jquery ready!')
+    createCheckbox(londonChoices, nycChoices);
+    initialize();
+})
+</script>
+
+</html>

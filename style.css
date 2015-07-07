@@ -1,9 +1,10 @@
 body {
-  padding: auto;
+  padding: 0;
+  margin:0;
   font: 14px "Baskerville", Helvetica, Arial, sans-serif;
   text-align: center;
 
-  color: #000066;
+  color: black;
 }
 
 a {
@@ -12,6 +13,7 @@ a {
 
 h1 {
 	text-align: center;
+	margin: 0;
 }
 
 .container {
@@ -19,15 +21,19 @@ h1 {
 	display: inline-block;
 	text-align: center;
 	width: 100%;
-	border-style: solid;
-	border-color: grey;
-	border-width: 1px;
+	
+}
+
+.header {
+	height: 20%;
+	background-color: #cccccc; 
+	
 }
 
 #checks {
 	height: 100px;
 	top:0px;
-	margin-top: 0px;
+	margin-top: 2%;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;

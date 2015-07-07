@@ -59,7 +59,7 @@ function Gauge(placeholderName, configuration) {
         this.config.majorTicks = configuration.majorTicks || 2;
         this.config.minorTicks = configuration.minorTicks || 0;
 
-        this.config.redColor = configuration.redColor || "#DC3912";
+        this.config.redColor = configuration.redColor || "#000099";
 
         this.config.transitionDuration = configuration.transitionDuration || 500;
     }
@@ -84,7 +84,7 @@ function Gauge(placeholderName, configuration) {
             .attr("cy", this.config.cy)
             .attr("r", 0.9 * this.config.raduis)
             //.style("fill", "#fff")
-            .style("fill", "#fff")
+            .style("fill", "#8C3130")
             .style("stroke", "#e0e0e0")
             .style("stroke-width", "2px");
 
@@ -109,7 +109,7 @@ function Gauge(placeholderName, configuration) {
                 .attr("text-anchor", "middle")
                 .text(this.config.label)
                 .style("font-size", fontSize + "px")
-                .style("fill", "#333")
+                .style("fill", "#fdfdfd")
                 .style("stroke-width", "0px");
         }
 
